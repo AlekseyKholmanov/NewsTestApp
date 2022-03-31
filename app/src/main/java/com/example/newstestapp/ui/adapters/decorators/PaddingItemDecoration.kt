@@ -4,7 +4,7 @@ import android.graphics.Rect
 import android.view.View
 import androidx.recyclerview.widget.RecyclerView
 
-class FeedHorizontalDividerItemDecoration(
+class PaddingItemDecoration(
     private val divider: Int,
 ) : RecyclerView.ItemDecoration() {
 

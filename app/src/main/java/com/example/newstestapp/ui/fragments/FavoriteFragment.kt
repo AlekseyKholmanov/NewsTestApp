@@ -9,7 +9,7 @@ import com.example.newstestapp.R
 import com.example.newstestapp.databinding.FragmentFavoriteBinding
 import com.example.newstestapp.ui.adapters.FingerprintAdapter
 import com.example.newstestapp.utils.ToolbarHost
-import com.example.newstestapp.ui.adapters.decorators.FeedHorizontalDividerItemDecoration
+import com.example.newstestapp.ui.adapters.decorators.PaddingItemDecoration
 import com.example.newstestapp.ui.adapters.fingerprints.EmptyDFavoriteFingerprint
 import com.example.newstestapp.ui.adapters.fingerprints.GoogleSignInFingerprintFingerprint
 import com.example.newstestapp.ui.adapters.fingerprints.NewsFingerprint
@@ -38,7 +38,7 @@ class FavoriteFragment : Fragment(R.layout.fragment_favorite) {
             with(favoriteList) {
                 layoutManager = LinearLayoutManager(requireContext())
                 adapter = this@FavoriteFragment.adapter
-                addItemDecoration(FeedHorizontalDividerItemDecoration(20))
+                addItemDecoration(PaddingItemDecoration(20))
             }
         }
         viewModel.state
