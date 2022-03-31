@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name = "pink_300">#f06292</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="primary">#9fa8da</color>
+    <color name="primary_light">#d1d9ff</color>
+    <color name="primary_dark">#6f79a8</color>
+    <color name="accent">#81d4fa</color>
+
+    <color name ="card_background_color">#e1f5fe</color>
+</resources>

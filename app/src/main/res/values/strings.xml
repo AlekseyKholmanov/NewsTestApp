@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">NewsTestApp</string>
+    <string name="bottom_title_main">Main</string>
+    <string name="bottom_title_favorites">Favorites</string>
+    <string name="txt_new_news_loading">Loading new news. Please wait..</string>
+    <string name="plug_text">"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries."</string>
+    <string name="txt_click_to_show">Click to open full news</string>
+    <string name="txt_try_again">Try again</string>
+    <string name="txt_fetch_error">Error happen. Try again...</string>
+    <string name="txt_empty_news">No one news was added to favorite</string>
+</resources>
